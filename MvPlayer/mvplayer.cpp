@@ -6,7 +6,6 @@ MvPlayer::MvPlayer(QWidget *parent)
     , ui(new Ui::MvPlayer)
 {
     ui->setupUi(this);
-
 }
 
 MvPlayer::~MvPlayer()
