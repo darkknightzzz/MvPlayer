@@ -1,6 +1,4 @@
 QT       += core gui
-QT       += multimedia
-QT       += multimediawidgets
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -15,11 +13,7 @@ SOURCES += \
     mvplayer.cpp
 
 HEADERS += \
-    mvbtmcontrol.h \
-    mvmenu.h \
-    mvplayer.h \
-    mvplaylist.h \
-    mvright.h
+    mvplayer.h
 
 FORMS += \
     mvplayer.ui
