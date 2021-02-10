@@ -19,9 +19,11 @@ public:
     ~MvPlayer();
 
 private slots:
-    void video_play();   //响应空格事件
-    void video_pause();
-    void video_stop();
+//    void video_play();   //响应空格事件
+//    void video_pause();
+//    void video_stop();
+
+    void on_player_clicked();
 
 private:
     void Mv_openfile();

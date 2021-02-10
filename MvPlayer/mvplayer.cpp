@@ -17,5 +17,5 @@ MvPlayer::~MvPlayer()
 
 void MvPlayer::on_player_clicked()
 {
-    ui->test->setText("hello");
+
 }
