@@ -6,6 +6,7 @@ MvPlayer::MvPlayer(QWidget *parent)
     , ui(new Ui::MvPlayer)
 {
     ui->setupUi(this);
+
 }
 
 MvPlayer::~MvPlayer()
@@ -13,3 +14,8 @@ MvPlayer::~MvPlayer()
     delete ui;
 }
 
+
+void MvPlayer::on_player_clicked()
+{
+    ui->test->setText("hello");
+}

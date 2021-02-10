@@ -15,6 +15,9 @@ public:
     MvPlayer(QWidget *parent = nullptr);
     ~MvPlayer();
 
+private slots:
+    void on_player_clicked();
+
 private:
     Ui::MvPlayer *ui;
 };
