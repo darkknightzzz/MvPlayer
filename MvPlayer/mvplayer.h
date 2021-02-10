@@ -5,6 +5,7 @@
 #include <QVideoWidget>
 #include <QMediaPlayer>
 #include <QMediaPlaylist>
+#include <QVBoxLayout>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MvPlayer; }
@@ -26,6 +27,7 @@ private slots:
     void on_player_clicked();
 
 private:
+    void initLayout();
     void Mv_openfile();
     void Mv_closefile();
     void Mv_play();
