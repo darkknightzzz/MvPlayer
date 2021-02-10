@@ -1,0 +1,20 @@
+命名规则：
+	btm。。。
+	video。。
+	menu。。。
+功能实现：
+	统一功能类似接口
+	功能与样式实现独立
+	打开，播放，进度条，快进，字幕，菜单，播放列表。
+问题:
+	多种类型格式解析
+
+文件：
+	底部列表
+	menu
+	播放列表
+	鼠标右键
+
+qt文档：
+	https://doc.qt.io/qt-5/qvideowidget.html
+	http://shouce.jb51.net/qt-beginning/61.html
